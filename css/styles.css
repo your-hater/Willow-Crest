@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Lato:100i,300,700&display=swap");
+
+:root {
+  --font-title: "Playfair Display", serif;
+  --font: "Lato", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body,
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+.clear::after,
+.clear::before {
+  content: " ";
+  display: table;
+}
+
+.clear::after {
+  clear: both;
+}
+
+/* Main Styles */
+
+.start-of-text::first-letter {
+  font-size: 75px;
+  float: left;
+  font-family: var(--font-title);
+}
+
+.text {
+  margin-top: 20px;
+
+  margin-left: 400px;
+  font-size: 25px;
+  font-family: var(--font);
+}
+
+.container {
+  width: 100%;
+  max-width: 1160px;
+}
+
+.main {
+  padding: 40px;
+  border: 2px solid black;
+}
+
+.header {
+  text-align: start;
+  margin-left: 20px;
+  margin-top: 200px;
+  margin-bottom: 15px;
+  font-family: var(--font-title);
+  font-weight: 900;
+}
+
+.button-discover {
+  text-align: center;
+  font-size: 34px;
+  letter-spacing: 1.5px;
+  background: cornsilk;
+}
+
+.button {
+  margin-left: 400px;
+  width: 100%;
+  max-width: 150px;
+  border: 3px solid #eaa258;
+}
+
+.start-of-text {
+  margin-bottom: 20px;
+}
+
+.text-body {
+  margin-bottom: 20px;
+}
+
+.button-name {
+  color: #eaa258;
+}
+
+.text-part {
+  margin-bottom: 20px;
+}
+
+b {
+  font-size: 60px;
+}
+
+.end {
+  margin-bottom: 20px;
+}
